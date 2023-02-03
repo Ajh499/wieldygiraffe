@@ -1,0 +1,86 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;400;600;900&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Lexend', sans-serif;
+  font-size: 1.2em !important;
+  background: #080f13;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+a {
+color: inherit;
+text-decoration: underline;
+}
+
+p {
+font-weight: 400;
+}
+
+h1 {
+font-weight: 600;
+}
+
+h2, h3, h4 {
+font-weight: 400;
+}
+
+i {
+color: #ffffff;
+font-size: 2em;
+}
+
+#wrapper {
+padding: 1em;
+text-align: center;
+word-wrap: break-word;
+overflow: hidden;
+width: 45em;
+}
+
+.logonav {
+position: absolute;
+}
+
+hr {
+color: #ffffff;
+font-size: 2em;
+width: 20em;
+}
+
+.totheleft {
+width: 50%;
+float: left;
+}
+
+.totheright {
+width: 50%;
+float: right;
+}
+
+.clear {
+clear: both;
+}
+
+.tothenone {
+float: none;
+}
+
+#fixed-div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  padding: 0.5em;
+}
+
+#fixed-div > img {
+  padding-right: 0.5em;
+}
+
+.alignlinks {
+vertical-align: baseline;
+}
